@@ -1,0 +1,84 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+</head>
+
+<body>
+  <h1>Team Fortress 2</h1>
+  <h2> <img src="blog_chars_base3.jpg" id="capa">
+    <h2>Pontos Positivos</h2>
+    <p>
+  <li>classes e armas divertidas de usar</li>
+  <li>historia complexa</li>
+  <li>comunidade muito ativa e receptiva</li>
+  <li>é gratuito</li>
+  <li>divertido e engraçado</li>    
+  </p>
+  <h2> Pontos Negativos</h2>
+  <p>
+    <li>falta de atualizações</li>
+    <li>negligenciado pela empresa que o criou</li>
+    <li>problemas com bots (trapaçeiros)</li>
+    <li>mau otimizado em computadores mais fracos e/ou antigos.</li>
+  </p>
+  <h2>Personagens/Classes</h2>
+
+  <p><!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img class="personagem" src="scout.jpg"><p>SCOUT</p></div>
+        <div class="swiper-slide"><img class="personagem" src="soldier.jpg"><p>SOLDIER</p></div>
+        <div class="swiper-slide"><img class="personagem" src="pyro.jpg"><p>PYRO</p></div>
+        <div class="swiper-slide"><img class="personagem" src="demoman.jpg"><p>DEMOMAN</p></div>
+        <div class="swiper-slide"><img class="personagem" src="heavy.jpg"><p>HEAVY</p></div>
+        <div class="swiper-slide"><img class="personagem" src="engineer.jpg"><p>ENGINEER</p></div>
+        <div class="swiper-slide"><img class="personagem" src="medic.jpg"><p>MEDIC</p></div>
+        <div class="swiper-slide"><img class="personagem" src="sniper.jpg"><p>SNIPER</p></div>
+        <div class="swiper-slide"><img class="personagem" src="spy.jpg"><p>SPY</p></div>
+        
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+    </div>
+    
+ 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+  const swiper = new Swiper('.swiper', {
+    spaceBetween: 10,
+    slidesPerView: 3,
+    pagination: {
+     el: '.swiper-pagination',
+    type: 'bullets',
+    },
+  });
+  
+</script>
+    
+    <li> site oficial: https://www.teamfortress.com/?tab=blog</li>
+    
+<p></p>
+    
+    <li>página da steam: https://store.steampowered.com/app/440/ </li>
+    
+</body>
+
+</html>

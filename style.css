@@ -1,0 +1,41 @@
+:root{
+  --cor-1: #BF454F;
+  --cor-2: #BF5517;
+  --cor-3: #BF4417;
+  --cor-4: #F2F2F2;
+  --cor-5: #0D0D0D;
+  --gradiente: linear-gradient(#BF5517, #BF4417,#0D0D0D)
+}
+
+
+body{
+  background: var(--gradiente);
+    }
+h1 {
+  color: var(--cor-4);
+  text-align: center;
+  font-size: 70px;
+}
+
+h2 {
+  color: var(--cor-5);
+  font-size: 50px;
+}
+
+p {
+  color: #FFFFFF
+  font-size: 30px;
+  text-align: justify;
+
+}
+
+li{
+  color: #F2F2F2;
+  font-size: 20;
+  text-align: justify;
+}
+
+#capa {
+  width: 100%;
+}
+
