@@ -39,3 +39,13 @@ li{
   width: 100%;
 }
 
+a{
+  color: #F2F2F2;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: 
+  padding: 20px 40px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
